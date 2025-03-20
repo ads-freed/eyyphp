@@ -2,9 +2,9 @@
 // config/config.php
 // Database configuration
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'ticketing_system');
-define('DB_USER', 'db_user');
-define('DB_PASS', 'db_pass');
+define('DB_NAME', 'eyydb');
+define('DB_USER', 'eyyphp');
+define('DB_PASS', 'eyyphp');
 
 try {
     $pdo = new PDO("mysql:host=".DB_HOST.";dbname=".DB_NAME, DB_USER, DB_PASS);
