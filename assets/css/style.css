@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header, footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+}
+header h1, footer p {
+    margin: 0;
+}
+.container {
+    padding: 20px;
+}
+.error {
+    color: red;
+}
+.success {
+    color: green;
+}
+/* Light and dark mode support */
+body.light-mode {
+    background-color: #f5f5f5;
+    color: #000;
+}
+body.dark-mode {
+    background-color: #121212;
+    color: #fff;
+}
+/* Responsive design */
+@media (max-width: 768px) {
+    nav a {
+        display: block;
+        margin-bottom: 5px;
+    }
+}
